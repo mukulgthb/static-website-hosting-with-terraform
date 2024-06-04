@@ -35,7 +35,7 @@ resource "aws_s3_bucket_policy" "hosting_bucket_policy" {
                 "Effect": "Allow",
                 "Principal": "*",
                 "Action": [
-                "s3:GetObject",
+                "s3:GetObject"
                 # "s3:CreateBucket",
                 # "s3:PutBucketAcl",
                 # "s3:PutBucketPolicy",
